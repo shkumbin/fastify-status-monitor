@@ -1,0 +1,45 @@
+{
+  "name": "fastify-status-monitor",
+  "version": "0.0.1",
+  "description": "Status Monitor for Fastify",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard | snazzy && tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shkumbin/fastify-status-monitor"
+  },
+  "keywords": [
+    "fastify",
+    "status",
+    "monitoring",
+    "charts"
+  ],
+  "author": "Shkumbin Maksuti <shkumbinmaksuti@gmail.com> (https://shkumb.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shkumbin/fastify-status-monitor"
+  },
+  "homepage": "https://github.com/shkumbin/fastify-status-monitor#readme",
+  "dependencies": {
+    "fastify": "^0.37.0",
+    "fastify-plugin": "^0.2.1",
+    "pidusage": "^1.2.0",
+    "poi": "^9.6.0",
+    "uws": "^9.14.0"
+  },
+  "engines": {
+    "node": ">=4.5"
+  },
+  "devDependencies": {
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3",
+    "tap": "^11.0.1"
+  },
+  "standard": {
+    "ignore": [
+      "/src/public/**/*.js"
+    ]
+  }
+}
